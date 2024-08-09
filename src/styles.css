@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: black;
+  color: white;
+  font-family: -apple-system, sans-serif;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.output {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
